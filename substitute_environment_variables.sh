@@ -8,5 +8,3 @@ do
   sed -i 's|VUE_APP_MY_VARIABLE_PLACEHOLDER|'${VUE_APP_MY_VARIABLE}'|g' $file
   # Your other variables here...
 done
-# Starting NGINX
-nginx -g 'daemon off;'
